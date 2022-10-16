@@ -1,0 +1,161 @@
+.intro {
+  @media only screen and (min-width: 280px) {
+    width: 100%;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffcc33;
+    @media only screen and (min-width: 780px) {
+      height: 65rem;
+    }
+    .introHeader {
+      width: 100%;
+      height: 10rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .title {
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: "Montserrat";
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: #000000;
+        gap: 10px;
+        @media only screen and (min-width: 780px) {
+          font-size: 40px;
+          line-height: 40px;
+        }
+      }
+      .pixel {
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        font-family: "Montserrat";
+        font-weight: 900;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #000000;
+        @media only screen and (min-width: 780px) {
+          align-items: center;
+        }
+      }
+    }
+    .introImage {
+      width: 100%;
+      height: 20rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media only screen and (min-width: 780px) {
+        margin-top: 2rem;
+      }
+      Image {
+        width: 300px;
+        height: 272px;
+        object-fit: cover;
+      }
+    }
+    .introStart {
+      width: 100%;
+      height: 20rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media only screen and (min-width: 780px) {
+        align-items: flex-end;
+        margin-top: 3rem;
+      }
+      .container {
+        width: 85%;
+        height: 204px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 16px;
+        background: #ffffff;
+        box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.15);
+        border-radius: 16px;
+        gap: 32px;
+        @media only screen and (min-width: 780px) {
+          width: 30%;
+          height: 80%;
+          margin-top: 5rem;
+          gap: 32px;
+        }
+
+        h1 {
+          width: 100%;
+          font-family: "Quicksand";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 22px;
+          text-align: center;
+          color: #000000;
+          padding-bottom: 16px;
+          margin: 0px;
+          @media only screen and (min-width: 780px) {
+            font-size: 22px;
+          }
+        }
+
+        p {
+          font-family: "Quicksand";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          text-align: center;
+          color: #000000;
+          padding-bottom: 20px;
+          margin: 0;
+
+          @media only screen and (min-width: 780px) {
+            font-size: 16px;
+          }
+        }
+        .buttonDiv {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+
+          button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 7px 16px;
+            width: 95%;
+            height: 56px;
+            background: #000000;
+            border-radius: 99px;
+            color: #ffffff;
+            font-family: "Quicksand";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            @media only screen and (min-width: 780px) {
+              width: 60%;
+              height: 46px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

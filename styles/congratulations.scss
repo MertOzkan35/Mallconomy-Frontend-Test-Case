@@ -1,0 +1,116 @@
+.cong {
+  @media only screen and (min-width: 280px) {
+    width: 100%;
+    height: 49rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcc33;
+    margin: 0px;
+    @media only screen and (min-width: 580px) {
+      height: 44rem;
+    }
+    .whiteBox {
+      width: 85%;
+      height: 284px;
+      padding: 16px;
+      gap: 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: #ffffff;
+      box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.15);
+      border-radius: 16px;
+      margin-bottom: 8rem;
+      @media only screen and (min-width: 580px) {
+        width: 40%;
+        height: 22rem;
+        padding: 10px;
+        gap: 0px;
+        margin-bottom: 0rem;
+      }
+      .congImage {
+        object-fit: cover;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media only screen and (min-width: 580px) {
+          height: 6rem;
+        }
+        Image {
+          width: 72px;
+          height: 50.55px;
+          object-fit: cover;
+        }
+      }
+      h1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Quicksand";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        margin: 0px;
+        padding-bottom: 13px;
+        @media only screen and (min-width: 580px) {
+          height: 4rem;
+        }
+      }
+      p {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Quicksand";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+        margin: 0px;
+        @media only screen and (min-width: 580px) {
+          height: 2rem;
+        }
+      }
+      .buttonDiv {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        @media only screen and (min-width: 580px) {
+          height: 8rem;
+        }
+        button {
+          width: 100%;
+          height: 56px;
+          font-family: "Quicksand";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 20px;
+          background: #000000;
+          border-radius: 99px;
+          padding: 7px 16px;
+          color: #ffffff;
+          &:hover {
+            box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.35);
+          }
+          @media only screen and (min-width: 580px) {
+            width: 60%;
+            height: 46px;
+          }
+        }
+      }
+    }
+  }
+}
