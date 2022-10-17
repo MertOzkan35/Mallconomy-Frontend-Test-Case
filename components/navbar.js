@@ -14,12 +14,14 @@ function Navbar() {
           <span style={{ fontWeight: "900", paddingLeft: 10 }}>APP</span>
         </h1>
       </Link>
-      <div className="pointsBar">
-        <p>
-          <span style={{ fontWeight: "500", paddingRight: 5 }}>Points :</span>
-          <span style={{ fontWeight: "900" }}>{soreDBb}</span>{" "}
-        </p>
-      </div>
+      <Link href={`/completedactions`}>
+        <div className="pointsBar">
+          <p>
+            <span style={{ fontWeight: "500", paddingRight: 5 }}>Points :</span>
+            <span style={{ fontWeight: "900" }}>{soreDBb}</span>{" "}
+          </p>
+        </div>
+      </Link>
     </div>
   );
 }
